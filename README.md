@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/brunotrolo/Salesforce_LWC-Developer?style=flat-square&color=00A1E0&label=stars" alt="Stars">
+  <img src="https://img.shields.io/github/stars/brunotrolo-bank/Salesforce_LWC-Developer?style=flat-square&color=00A1E0&label=stars" alt="Stars">
   <img src="https://img.shields.io/badge/skill%201-documenter-9C6BFF?style=flat-square" alt="Skill 1: documenter">
   <img src="https://img.shields.io/badge/skill%202-spec%20writer-9C6BFF?style=flat-square" alt="Skill 2: spec writer">
   <img src="https://img.shields.io/badge/skill%203-generator%20(3%20modos)-9C6BFF?style=flat-square" alt="Skill 3: generator">
@@ -52,19 +52,19 @@ Rode **de dentro da pasta do seu projeto** (onde está `force-app`):
 
 **Windows (PowerShell):**
 ```powershell
-git clone --depth 1 https://github.com/brunotrolo/Salesforce_LWC-Developer.git .skill-tmp; New-Item -ItemType Directory -Force .claude | Out-Null; Copy-Item -Recurse -Force .skill-tmp\.claude\* .claude\; Remove-Item -Recurse -Force .skill-tmp
+git clone --depth 1 https://github.com/brunotrolo-bank/Salesforce_LWC-Developer.git .skill-tmp; New-Item -ItemType Directory -Force .claude | Out-Null; Copy-Item -Recurse -Force .skill-tmp\.claude\* .claude\; Remove-Item -Recurse -Force .skill-tmp
 ```
 
 **Mac / Linux / Git Bash:**
 ```bash
-git clone --depth 1 https://github.com/brunotrolo/Salesforce_LWC-Developer.git .skill-tmp && mkdir -p .claude && cp -r .skill-tmp/.claude/. .claude/ && rm -rf .skill-tmp
+git clone --depth 1 https://github.com/brunotrolo-bank/Salesforce_LWC-Developer.git .skill-tmp && mkdir -p .claude && cp -r .skill-tmp/.claude/. .claude/ && rm -rf .skill-tmp
 ```
 
 Isso instala as 3 skills próprias (`lwc-pattern-documenter` + `lwc-spec-writer` +
 `lwc-pattern-generator`), as 2 skills oficiais de craft (`experience-lwc-generate` +
 `design-systems-slds-apply`) e o `.claude/settings.json` (segurança da Skill 3).
 
-> **Já usa a [`apex-test-loop`](https://github.com/brunotrolo/Salesforce_Apex-Cover-Loop)
+> **Já usa a [`apex-test-loop`](https://github.com/brunotrolo-bank/Salesforce_Apex-Cover-Loop)
 > no mesmo projeto?** Ela também tem `settings.json` próprio — **não deixe o comando
 > acima sobrescrever o seu**. Mescle os dois (`deny` + os hooks `PreToolUse` de cada
 > guard) em vez de substituir o arquivo. Detalhes em [Informações](./INFORMACOES.md).
@@ -144,7 +144,7 @@ guia:
 ---
 
 <p align="center">
-  ⭐ <b><a href="https://github.com/brunotrolo/Salesforce_LWC-Developer/stargazers">Dê uma star no repo</a></b> para acompanhar novas melhorias.
+  ⭐ <b><a href="https://github.com/brunotrolo-bank/Salesforce_LWC-Developer/stargazers">Dê uma star no repo</a></b> para acompanhar novas melhorias.
 </p>
 
 <p align="center">
@@ -155,5 +155,5 @@ guia:
 </p>
 
 <p align="center">
-  <sub>Orquestração e aprendizado de padrões © <a href="https://github.com/brunotrolo">brunotrolo</a> · <a href="./LICENSE">MIT</a>. Skills <code>experience-lwc-generate</code> e <code>design-systems-slds-apply</code> redistribuídas sob Apache-2.0 (ver <code>.claude/skills/VENDOR-ATTRIBUTION.md</code>).</sub>
+  <sub>Orquestração e aprendizado de padrões © <a href="https://github.com/brunotrolo-bank">brunotrolo-bank</a> · <a href="./LICENSE">MIT</a>. Skills <code>experience-lwc-generate</code> e <code>design-systems-slds-apply</code> redistribuídas sob Apache-2.0 (ver <code>.claude/skills/VENDOR-ATTRIBUTION.md</code>).</sub>
 </p>
